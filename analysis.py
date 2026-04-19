@@ -242,7 +242,7 @@ def avg_number_B_cells() -> float:
 def main():
     os.makedirs(OUTPUT_DIR, exist_ok=True)
 
-    freq_df = frequency_table()
+    freq_df = get_frequency_table()
     freq_df.to_csv(f"{OUTPUT_DIR}/frequency_table.csv", index=False)
     print("Frequency table saved")
 
