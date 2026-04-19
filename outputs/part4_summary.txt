@@ -1,0 +1,19 @@
+
+PART 4 RESULTS
+==============
+Samples per project:
+project  sample_count
+   prj1           384
+   prj3           272
+
+Responders vs Non-Responders:
+response  subject_count
+      no            325
+     yes            331
+
+Males vs Females:
+sex  subject_count
+  F            312
+  M            344
+
+Avg B cells (melanoma male responders, time=0): 10401.28
