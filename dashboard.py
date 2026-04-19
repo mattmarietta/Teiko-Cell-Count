@@ -64,7 +64,7 @@ app.layout = dbc.Container([
 
         # Tab 2: Responder Analysis
         dbc.Tab(label="Responder Analysis", children=[
-            html.P("Melanoma patients on miraclib (PBMC only) — responders vs non-responders.", className="mt-3 text-muted"),
+            html.P("Melanoma patients on miraclib (PBMC only). Responders vs Non-responders.", className="mt-3 text-muted"),
 
             dcc.Graph(figure=boxplot),
 
